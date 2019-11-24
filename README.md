@@ -11,9 +11,9 @@ This repo is meant to be used as a submodule of [`eemeli/yaml`](https://github.c
 
 https://stackoverflow.com/questions/42308879/npm-err-code-elifecycle
 
-npm install yaml@latest
-npm i -g webpack-dev-server
-npm cache clean --force
-delete node_modules
-npm i
-npm start
+- npm install yaml@latest
+- npm i -g webpack-dev-server
+- npm cache clean --force
+- delete node_modules
+- npm i
+- npm start
