@@ -8,3 +8,12 @@ This repository fulfills multiple related needs:
 4. Provides an interactive playground for testing and playing with YAML
 
 This repo is meant to be used as a submodule of [`eemeli/yaml`](https://github.com/eemeli/yaml), hence the `"yaml": "file:.."` dependency in package.json. To use independently, run `npm install yaml@latest`.
+
+https://stackoverflow.com/questions/42308879/npm-err-code-elifecycle
+
+npm install yaml@latest
+npm i -g webpack-dev-server
+npm cache clean --force
+delete node_modules
+npm i
+npm start
